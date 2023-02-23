@@ -14,5 +14,3 @@ def fromJson(file_path: str)->dict:
     f = open(file_path, encoding='UTF8').read()
 
     return json.loads(f)
-data = 'data/result.json'
-fromJson(data)
